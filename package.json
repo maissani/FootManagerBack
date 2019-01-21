@@ -1,0 +1,58 @@
+{
+  "name": "footmanagerback",
+  "version": "1.0.0",
+  "description": "A simple GraphQL API with user product and payment, writen for the blade technical test.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "mocha --require @babel/register 'src/**/*.spec.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/maissani/FootManagerBack.git"
+  },
+  "keywords": [
+    "graphql",
+    "ES6",
+    "appolo",
+    "scopes"
+  ],
+  "author": "AISSANI MEHDI",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maissani/FootManagerBack/issues"
+  },
+  "homepage": "https://github.com/maissani/FootManagerBack#readme",
+  "dependencies": {
+    "apollo-server": "^2.2.0",
+    "apollo-server-express": "^2.2.0",
+    "bcrypt": "^3.0.2",
+    "cors": "^2.8.5",
+    "dataloader": "^1.4.0",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "graphql": "^14.0.2",
+    "graphql-iso-date": "^3.6.1",
+    "graphql-resolvers": "^0.2.2",
+    "jsonwebtoken": "^8.3.0",
+    "sequelize": "^4.41.1",
+    "sqlite3": "^4.0.4",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/register": "^7.0.0",
+    "axios": "^0.18.0",
+    "chai": "^4.2.0",
+    "eslint": "^5.9.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.6"
+  }
+}
